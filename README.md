@@ -4,9 +4,13 @@ This project simulates logic circuits using object-oriented programming in C#. I
 
 ----------------------------------------------------------------------------
 Standalone Circuits: take in 2 inputs and evaluate to a single value.
+
 MathCircuit: Performs arithmetic operations: '+','-','/','%','*','&'
+
 ComparisonCircuit: Compares two values based on the operator and evaluates to 1 if true, 0 if false: '>','<','!','+'
+
 MinMaxCircuit: Extends MathCircuit, evaluates to the the min or max value based on the state: '<','>'
+
 CircuitBlock: Manages multiple circuits using the circuits interface and handles wiring/unwiring.
 
 p3: Driver project for demonstration and testing.
